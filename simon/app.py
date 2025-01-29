@@ -5,7 +5,6 @@ from random import randint
 import requests, os
 
 font_size = 28 # px
-KEY = "AIzaSyA4zS6S5OKrWWTOV-9XsYKGTlj0F0hVvcg"
 
 def treatment(path):
     img = cv.imread(path, cv.IMREAD_GRAYSCALE)
